@@ -14,6 +14,7 @@
 		851B760A1B437AB1003532A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 851B76091B437AB1003532A3 /* Images.xcassets */; };
 		851B760D1B437AB1003532A3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 851B760B1B437AB1003532A3 /* LaunchScreen.xib */; };
 		851B76191B437AB1003532A3 /* Demo01_Git_LocalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 851B76181B437AB1003532A3 /* Demo01_Git_LocalTests.m */; };
+		851B76241B437DBD003532A3 /* TestGit.m in Sources */ = {isa = PBXBuildFile; fileRef = 851B76231B437DBD003532A3 /* TestGit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		851B76121B437AB1003532A3 /* Demo01-Git-LocalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo01-Git-LocalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		851B76171B437AB1003532A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		851B76181B437AB1003532A3 /* Demo01_Git_LocalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo01_Git_LocalTests.m; sourceTree = "<group>"; };
+		851B76221B437DBD003532A3 /* TestGit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestGit.h; sourceTree = "<group>"; };
+		851B76231B437DBD003532A3 /* TestGit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestGit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				851B76011B437AB1003532A3 /* AppDelegate.m */,
 				851B76031B437AB1003532A3 /* ViewController.h */,
 				851B76041B437AB1003532A3 /* ViewController.m */,
+				851B76221B437DBD003532A3 /* TestGit.h */,
+				851B76231B437DBD003532A3 /* TestGit.m */,
 				851B76061B437AB1003532A3 /* Main.storyboard */,
 				851B76091B437AB1003532A3 /* Images.xcassets */,
 				851B760B1B437AB1003532A3 /* LaunchScreen.xib */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				851B76241B437DBD003532A3 /* TestGit.m in Sources */,
 				851B76051B437AB1003532A3 /* ViewController.m in Sources */,
 				851B76021B437AB1003532A3 /* AppDelegate.m in Sources */,
 				851B75FF1B437AB1003532A3 /* main.m in Sources */,
@@ -416,6 +422,7 @@
 				851B761E1B437AB1003532A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		851B761F1B437AB1003532A3 /* Build configuration list for PBXNativeTarget "Demo01-Git-LocalTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				851B76211B437AB1003532A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
